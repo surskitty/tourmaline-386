@@ -30,6 +30,13 @@ static void VCountIntr(void);
 static void SerialIntr(void);
 static void IntrDummy(void);
 
+static void SeedRngWithRtc(void)
+{
+	u32 seed = RtcGetMinuteCount();
+	seed = (seed >> 16) ^ (seed & 0xFFFF);
+	SeedRng(seed);
+}
+
 const u8 gGameVersion = GAME_VERSION;
 
 const u8 gGameLanguage = GAME_LANGUAGE; // English
@@ -118,6 +125,7 @@ void AgbMain()
     CheckForFlashMemory();
     InitMainCallbacks();
     InitMapMusic();
+    SeedRngWithRtc();
     ClearDma3Requests();
     ResetBgs();
     SetDefaultFontsPointer();
