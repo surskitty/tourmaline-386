@@ -67,7 +67,7 @@ Route103_EventScript_RivalBrendan:: @ 81EC434
 Route103_Eevee_EventScript_ReceiveEevee::
 	msgbox Route103_Eevee_Text_ShouldntTravelJustOne, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_EEVEE
-	givemon SPECIES_EEVEE, 25, ITEM_SOOTHE_BELL
+	givemon SPECIES_EEVEE, 5, ITEM_SOOTHE_BELL
 	call Route103_Eevee_EventScript_ReceivedEeveeFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	call Common_EventScript_GetGiftMonPartySlot
@@ -336,8 +336,8 @@ Route103_Text_MayDefeated: @ 81EC881
 Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "MAY: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
+	.string "I mean, you just got those POKéMON,\n"
+	.string "but they already like you.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
 	.string "Well, it's time to head back to\n"
@@ -364,14 +364,14 @@ Route103_Text_BrendanTimeToHeadBack: @ 81ECA79
 	.string "BRENDAN: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
+	.string "Look, your POKéMON already like you,\n"
+	.string "even though you just got them.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any POKéMON with ease.\p"
 	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion: @ 81ECB73
-	.string "My POKéMON is staggeringly tired…\n"
+	.string "My POKéMON are staggeringly tired…\n"
 	.string "I should have brought a POTION…$"
 
 Route103_Text_ShortcutToOldale: @ 81ECBB5
