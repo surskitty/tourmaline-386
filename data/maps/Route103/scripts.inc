@@ -37,6 +37,8 @@ Route103_EventScript_RivalMay:: @ 81EC3DA
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
+	call Route103_Eevee_EventScript_ReceiveEevee
+	msgbox Route103_Text_MayLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartMayBattleTreecko
 	case 1, Route103_EventScript_StartMayBattleTorchic
@@ -54,11 +56,32 @@ Route103_EventScript_RivalBrendan:: @ 81EC434
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
+	call Route103_Eevee_EventScript_ReceiveEevee
+	msgbox Route103_Text_BrendanLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartBrendanBattleTreecko
 	case 1, Route103_EventScript_StartBrendanBattleTorchic
 	case 2, Route103_EventScript_StartBrendanBattleMudkip
 	end
+
+Route103_Eevee_EventScript_ReceiveEevee::
+	msgbox Route103_Eevee_Text_ShouldntTravelJustOne, MSGBOX_DEFAULT
+	setvar VAR_TEMP_1, SPECIES_EEVEE
+	givemon SPECIES_EEVEE, 25, ITEM_SOOTHE_BELL
+	call Route103_Eevee_EventScript_ReceivedEeveeFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	setflag FLAG_RECEIVED_EEVEE
+	return
+
+Route103_Eevee_EventScript_ReceivedEeveeFanfare::
+	playfanfare MUS_FANFA4
+	message Route103_Eevee_Text_PlayerReceivedEevee
+	waitmessage
+	waitfanfare
+	bufferspeciesname 0, SPECIES_EEVEE
+	return
 
 Route103_EventScript_StartMayBattleTreecko:: @ 81EC48E
 	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_MayDefeated
@@ -298,7 +321,9 @@ Route103_Text_MayRoute103Pokemon: @ 81EC7A6
 Route103_Text_MayLetsBattle: @ 81EC7DE
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
+	.string "a POKéMON as a gift.$"
+
+Route103_Text_MayLetsBattle2: @ 81EC7DE
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
@@ -324,7 +349,9 @@ Route103_Text_BrendanRoute103Pokemon: @ 81EC989
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE
 	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
+	.string "…Oh, yeah, Dad gave you a POKéMON.$"
+
+Route103_Text_BrendanLetsBattle2: 
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
 	.string "I'll teach you what being a TRAINER's\n"
@@ -356,3 +383,11 @@ Route103_Text_RouteSign: @ 81ECC1A
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
+Route103_Eevee_Text_ShouldntTravelJustOne:
+	.string "You know, you shouldn't travel\n"
+	.string "with just one.\p"
+	.string "Most trainers around here prefer\n"
+	.string "to DOUBLE BATTLE.$"
+
+Route103_Eevee_Text_PlayerReceivedEevee:
+	.string "{PLAYER} received EEVEE!$"
