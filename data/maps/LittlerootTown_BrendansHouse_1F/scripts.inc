@@ -304,7 +304,7 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
+	.string "Make sure to check your computer!\p"
 	.string "DAD bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
