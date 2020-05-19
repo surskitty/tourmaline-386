@@ -9079,7 +9079,7 @@ static void Cmd_hiddenpowercalc(void)
               | ((gBattleMons[gBattlerAttacker].spAttackIV & 1) << 4)
               | ((gBattleMons[gBattlerAttacker].spDefenseIV & 1) << 5);
 
-    gDynamicBasePower = (40 * powerBits) / 63 + 30;
+    gDynamicBasePower = 60;
 
     gBattleStruct->dynamicMoveType = (15 * typeBits) / 63 + 1;
     if (gBattleStruct->dynamicMoveType >= TYPE_MYSTERY)
