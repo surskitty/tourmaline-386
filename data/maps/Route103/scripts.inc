@@ -37,7 +37,7 @@ Route103_EventScript_RivalMay:: @ 81EC3DA
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
-	call_if_unset FLAG_RECEIVED_EEVEE, Route103_Eevee_EventScript_ReceiveEevee
+	call_if_unset FLAG_RECEIVED_EEVEE, Route103_EventScript_RivalReceiveEevee
 	msgbox Route103_Text_MayLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartMayBattleTreecko
@@ -56,7 +56,7 @@ Route103_EventScript_RivalBrendan:: @ 81EC434
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
-	call_if_unset FLAG_RECEIVED_EEVEE, Route103_Eevee_EventScript_ReceiveEevee
+	call_if_unset FLAG_RECEIVED_EEVEE, Route103_EventScript_RivalReceiveEevee
 	msgbox Route103_Text_BrendanLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartBrendanBattleTreecko
@@ -64,10 +64,10 @@ Route103_EventScript_RivalBrendan:: @ 81EC434
 	case 2, Route103_EventScript_StartBrendanBattleMudkip
 	end
 
-Route103_Eevee_EventScript_ReceiveEevee::
+Route103_EventScript_RivalReceiveEevee::
 	msgbox Route103_Eevee_Text_ShouldntTravelJustOne, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_EEVEE
-	givemon SPECIES_EEVEE, 5, ITEM_SOOTHE_BELL
+	givemon SPECIES_EEVEE, 5, ITEM_NONE
 	call Route103_Eevee_EventScript_ReceivedEeveeFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	call Common_EventScript_GetGiftMonPartySlot
