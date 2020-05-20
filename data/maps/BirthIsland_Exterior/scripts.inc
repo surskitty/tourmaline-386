@@ -23,6 +23,7 @@ BirthIsland_Exterior_EventScript_HideDeoxysAndPuzzle:: @ 8267F4E
 	return
 
 BirthIsland_Exterior_EventScript_TryShowDeoxysPuzzle:: @ 8267F55
+	goto_if_set FLAG_CAUGHT_DEOXYS, Common_EventScript_NopReturn
 	goto_if_set FLAG_DEFEATED_DEOXYS, Common_EventScript_NopReturn
 	clearflag FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE
 	clearflag FLAG_DEOXYS_ROCK_COMPLETE
@@ -94,6 +95,7 @@ BirthIsland_Exterior_EventScript_Deoxys:: @ 8267FC1
 	goto_if_eq BirthIsland_Exterior_EventScript_RanFromDeoxys
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq BirthIsland_Exterior_EventScript_RanFromDeoxys
+	setflag FLAG_CAUGHT_DEOXYS
 	setflag FLAG_BATTLED_DEOXYS
 	release
 	end

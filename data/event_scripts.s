@@ -641,6 +641,7 @@ EverGrandeCity_HallOfFame_EventScript_ResetStaticPokemon:: @ 82718CC
 	clearflag FLAG_DEFEATED_HO_OH
 	clearflag FLAG_DEFEATED_LUGIA
 	clearflag FLAG_DEFEATED_DEOXYS
+	clearflag FLAG_BATTLED_DEOXYS
 	clearflag FLAG_DEFEATED_MEW
 	return
 

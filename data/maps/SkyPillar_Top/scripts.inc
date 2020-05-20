@@ -28,6 +28,7 @@ SkyPillar_Top_EventScript_SetCleanLayout:: @ 82396FD
 	return
 
 SkyPillar_Top_EventScript_TryShowRayquaza:: @ 8239705
+	goto_if_set FLAG_CAUGHT_RAYQUAZA, Common_EventScript_NopReturn
 	call_if_unset FLAG_DEFEATED_RAYQUAZA, SkyPillar_Top_EventScript_ShowRayquaza
 	return
 
@@ -62,6 +63,7 @@ SkyPillar_Top_EventScript_Rayquaza:: @ 8239722
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq SkyPillar_Top_EventScript_RanFromRayquaza
 	setflag FLAG_DEFEATED_RAYQUAZA
+	setflag FLAG_CAUGHT_RAYQUAZA
 	releaseall
 	end
 
