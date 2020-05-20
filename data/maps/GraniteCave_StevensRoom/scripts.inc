@@ -12,6 +12,26 @@ GraniteCave_StevensRoom_EventScript_Steven:: @ 822DC7B
 	giveitem ITEM_TM47
 	compare VAR_RESULT, FALSE
 	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	msgbox GraniteCave_StevensRoom_Text_StoneCollector, MSGBOX_DEFAULT
+	giveitem ITEM_LEAF_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	giveitem ITEM_WATER_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	giveitem ITEM_THUNDER_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	giveitem ITEM_FIRE_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	giveitem ITEM_SUN_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	giveitem ITEM_MOON_STONE
+	compare VAR_RESULT, FALSE
+	call_if_eq GraniteCave_StevensRoom_EventScript_BagFull
+	setflag FLAG_RECEIVED_STONES
 	msgbox GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -99,6 +119,12 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis: @ 822DDBD
 	.string "I'll give you this TM.\p"
 	.string "It contains my favorite move,\n"
 	.string "STEEL WING.$"
+
+GraniteCave_StevensRoom_Text_StoneCollector: @ 822DDBD
+	.string "STEVEN: Oh?\n"
+	.string "And you're raising an EEVEE?\p"
+	.string "EEVEE evolves with rare stones.\n"
+	.string "I happen to have spares!$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
 	.string "STEVEN: Your POKéMON appear quite\n"
