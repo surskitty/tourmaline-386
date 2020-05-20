@@ -970,28 +970,23 @@ void sub_8167054(struct Pokeblock *pokeblock, struct Pokemon *mon)
     s16 cstat;
     u8 data;
 
-    if (GetMonData(mon, MON_DATA_SHEEN) != 255)
+    sub_8167184(pokeblock, mon);
+    for (i = 0; i < 5; i++)
     {
-        sub_8167184(pokeblock, mon);
-        for (i = 0; i < 5; i++)
-        {
-            data = GetMonData(mon, gUnknown_085DFCB0[i]);
-            cstat = data +  gUnknown_0203BC90->field_66[i];
-            if (cstat < 0)
-                cstat = 0;
-            if (cstat > 255)
-                cstat = 255;
-            data = cstat;
-            SetMonData(mon, gUnknown_085DFCB0[i], &data);
-        }
-
-        cstat = (u8)(GetMonData(mon, MON_DATA_SHEEN)) + pokeblock->feel;
+        data = GetMonData(mon, gUnknown_085DFCB0[i]);
+        cstat = data +  gUnknown_0203BC90->field_66[i];
+        if (cstat < 0)
+            cstat = 0;
         if (cstat > 255)
             cstat = 255;
-
         data = cstat;
-        SetMonData(mon, MON_DATA_SHEEN, &data);
+        SetMonData(mon, gUnknown_085DFCB0[i], &data);
     }
+    cstat = (u8)(GetMonData(mon, MON_DATA_SHEEN)) + pokeblock->feel;
+    if (cstat > 255)
+        cstat = 255;
+    data = cstat;
+    SetMonData(mon, MON_DATA_SHEEN, &data);
 }
 
 void sub_8167104(void)
@@ -1040,13 +1035,7 @@ void sub_8167184(struct Pokeblock *pokeblock, struct Pokemon *mon)
 
 bool8 IsSheenMaxed(void)
 {
-    if (GetBoxOrPartyMonData(gUnknown_0203BCAC->field_7FB8[gUnknown_0203BCAC->info.field_71].unk0,
-                             gUnknown_0203BCAC->field_7FB8[gUnknown_0203BCAC->info.field_71].unk1,
-                             MON_DATA_SHEEN,
-                             NULL) == 255)
-        return TRUE;
-    else
-        return FALSE;
+    return FALSE;
 }
 
 u8 sub_81672A4(u8 a0)
