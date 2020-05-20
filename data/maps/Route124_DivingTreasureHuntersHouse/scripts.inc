@@ -316,9 +316,9 @@ Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou: @ 8271098
 	.string "with me! I'll give you something good!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade: @ 8271117
-	.string "What do you want to trade?$"Route124_DivingTreasureHuntersHouse_Text_YoullTradeShard
+	.string "What do you want to trade?$"
 
-: @ 8271132
+Route124_DivingTreasureHuntersHouse_Text_YoullTradeShard: @ 8271132
 	.string "You'll trade your {STR_VAR_1} for\n"
 	.string "my {STR_VAR_2}, then?$"
 
