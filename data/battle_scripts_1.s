@@ -2319,6 +2319,7 @@ BattleScript_EffectCharge::
 	attackanimation
 	waitanimation
 	printstring STRINGID_PKMNCHARGINGPOWER
+	setstatchanger STAT_SPDEF, 1, FALSE
 	waitmessage 0x40
 	goto BattleScript_MoveEnd
 
