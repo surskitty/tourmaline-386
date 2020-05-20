@@ -37,7 +37,7 @@ Route103_EventScript_RivalMay:: @ 81EC3DA
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
-	call Route103_Eevee_EventScript_ReceiveEevee
+	call_if_unset FLAG_RECEIVED_EEVEE, Route103_Eevee_EventScript_ReceiveEevee
 	msgbox Route103_Text_MayLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartMayBattleTreecko
@@ -56,7 +56,7 @@ Route103_EventScript_RivalBrendan:: @ 81EC434
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
-	call Route103_Eevee_EventScript_ReceiveEevee
+	call_if_unset FLAG_RECEIVED_EEVEE, Route103_Eevee_EventScript_ReceiveEevee
 	msgbox Route103_Text_BrendanLetsBattle2, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartBrendanBattleTreecko
