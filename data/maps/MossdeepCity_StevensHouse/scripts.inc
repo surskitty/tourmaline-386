@@ -1,12 +1,7 @@
 MossdeepCity_StevensHouse_MapScripts:: @ 8222784
-	map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_StevensHouse_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_StevensHouse_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_StevensHouse_OnFrame
 	.byte 0
-
-MossdeepCity_StevensHouse_OnLoad: @ 8222794
-	call_if_unset FLAG_SYS_GAME_CLEAR, MossdeepCity_StevensHouse_EventScript_HideStevensNote
-	end
 
 MossdeepCity_StevensHouse_EventScript_HideStevensNote:: @ 822279E
 	setmetatile 6, 4, METATILE_GenericBuilding_TableEdge, 1
