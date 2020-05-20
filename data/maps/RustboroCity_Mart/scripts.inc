@@ -40,6 +40,11 @@ RustboroCity_Mart_EventScript_PokemartExpanded:: @ 8214F48
 	.align 2
 RustboroCity_Mart_Pokemart_Expanded: @ 8214F58
 	.2byte ITEM_POKE_BALL
+	.2byte ITEM_PREMIER_BALL
+	.2byte ITEM_DIVE_BALL
+	.2byte ITEM_LUXURY_BALL
+	.2byte ITEM_NEST_BALL
+	.2byte ITEM_NET_BALL
 	.2byte ITEM_TIMER_BALL
 	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_POTION
@@ -81,7 +86,7 @@ RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead: @ 8214FF1
 
 RustboroCity_Mart_Text_GettingEscapeRopeJustInCase: @ 821505C
 	.string "I'm getting an ESCAPE ROPE just in\n"
-	.string "case I get lost in a cave.\p"
+	.string "case I get tired of spelunking.\p"
 	.string "I just need to use it to get back to\n"
-	.string "the entrance.$"
+	.string "the cave entrance.$"
 
