@@ -41,7 +41,23 @@ Route114_FossilManiacsTunnel_EventScript_FossilManiac:: @ 822AF87
 	checkitem ITEM_CLAW_FOSSIL, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq Route114_FossilManiacsTunnel_EventScript_PlayerHasFossil
+	msgbox Route114_FossilManiacsTunnel_Text_ImTheFossilManiac, MSGBOX_DEFAULT
+	msgbox Route114_FossilManiacsTunnel_Text_DoYouWantFossil, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq Route114_FossilManiacsTunnel_EventScript_NoneForYou
+	goto_if_unset FLAG_RECEIVED_OLD_AMBER, Route114_FossilManiacsTunnel_EventScript_GetOldAmber
+Route114_FossilManiacsTunnel_EventScript_NoneForYou:: 
 	msgbox Route114_FossilManiacsTunnel_Text_LookInDesertForFossils, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+Route114_FossilManiacsTunnel_EventScript_GetOldAmber::
+	msgbox Route114_FossilManiacsTunnel_Text_UglyFossil, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_AMBER
+	compare VAR_RESULT, 0
+	goto_if_eq Common_EventScript_BagIsFull
+	setflag FLAG_RECEIVED_OLD_AMBER
 	release
 	end
 
@@ -55,16 +71,24 @@ Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil:: @ 822AFC6
 	release
 	end
 
-Route114_FossilManiacsTunnel_Text_LookInDesertForFossils: @ 822AFD0
+Route114_FossilManiacsTunnel_Text_ImTheFossilManiac:
 	.string "I'm the FOSSIL MANIAC…\n"
-	.string "I'm a nice guy who loves FOSSILS…\p"
-	.string "Do you want a FOSSIL?\p"
-	.string "But the FOSSILS around these parts all\n"
+	.string "I'm a nice guy who loves FOSSILS…$"
+
+Route114_FossilManiacsTunnel_Text_DoYouWantFossil:
+	.string "Do you want a FOSSIL?$"
+
+Route114_FossilManiacsTunnel_Text_LookInDesertForFossils: @ 822AFD0
+	.string "The FOSSILS around these parts all\n"
 	.string "belong to me… None for you…\p"
 	.string "If you can't bear to go without\n"
 	.string "a FOSSIL, look in a desert where there\l"
 	.string "are boulders and sand that may hide\l"
 	.string "FOSSILS…$"
+
+Route114_FossilManiacsTunnel_Text_UglyFossil: @ 822AFD0
+	.string "………\n"
+	.string "…I guess I can spare an ugly FOSSIL.$"
 
 Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils: @ 822B0D6
 	.string "You found a FOSSIL, didn't you?\n"

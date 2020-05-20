@@ -79,16 +79,18 @@
 #define FLAG_UNUSED_0x043    0x43 // Unused Flag
 #define FLAG_UNUSED_0x044    0x44 // Unused Flag
 #define FLAG_UNUSED_0x045    0x45 // Unused Flag
-#define FLAG_UNUSED_0x046    0x46 // Unused Flag
-#define FLAG_UNUSED_0x047    0x47 // Unused Flag
-#define FLAG_UNUSED_0x048    0x48 // Unused Flag
-#define FLAG_UNUSED_0x049    0x49 // Unused Flag
-#define FLAG_UNUSED_0x04A    0x4A // Unused Flag
-#define FLAG_UNUSED_0x04B    0x4B // Unused Flag
-#define FLAG_UNUSED_0x04C    0x4C // Unused Flag
-#define FLAG_UNUSED_0x04D    0x4D // Unused Flag
-#define FLAG_RECEIVED_STONES 0x4E // Evolution Stones from Steven
-#define FLAG_RECEIVED_EEVEE  0x4F // Starter Eevee from rival
+
+// Tourmaline
+#define FLAG_CAUGHT_SUDOWOODO                0x46 // Unused Flag
+#define FLAG_CAUGHT_RAYQUAZA                 0x47 // Unused Flag
+#define FLAG_CAUGHT_GROUDON                  0x48 // Unused Flag
+#define FLAG_CAUGHT_KYOGRE                   0x49 // Unused Flag
+#define FLAG_CAUGHT_REGISTEEL                0x4A // Unused Flag
+#define FLAG_CAUGHT_REGICE                   0x4B // Unused Flag
+#define FLAG_CAUGHT_REGIROCK                 0x4C // Unused Flag
+#define FLAG_RECEIVED_OLD_AMBER              0x4D // Old Amber from Fossil Maniac
+#define FLAG_RECEIVED_STONES                 0x4E // Evolution Stones from Steven
+#define FLAG_RECEIVED_EEVEE                  0x4F // Starter Eevee from rival
 
 // Scripts
 #define FLAG_HIDE_RAYQUAZA_SKY_TOWER_SUMMIT  0x50
