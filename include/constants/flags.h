@@ -81,13 +81,13 @@
 #define FLAG_UNUSED_0x045    0x45 // Unused Flag
 
 // Tourmaline
-#define FLAG_CAUGHT_SUDOWOODO                0x46 // Unused Flag
-#define FLAG_CAUGHT_RAYQUAZA                 0x47 // Unused Flag
-#define FLAG_CAUGHT_GROUDON                  0x48 // Unused Flag
-#define FLAG_CAUGHT_KYOGRE                   0x49 // Unused Flag
-#define FLAG_CAUGHT_REGISTEEL                0x4A // Unused Flag
-#define FLAG_CAUGHT_REGICE                   0x4B // Unused Flag
-#define FLAG_CAUGHT_REGIROCK                 0x4C // Unused Flag
+#define FLAG_CAUGHT_SUDOWOODO                0x46
+#define FLAG_CAUGHT_RAYQUAZA                 0x47
+#define FLAG_CAUGHT_GROUDON                  0x48
+#define FLAG_CAUGHT_KYOGRE                   0x49
+#define FLAG_CAUGHT_REGISTEEL                0x4A
+#define FLAG_CAUGHT_REGICE                   0x4B
+#define FLAG_CAUGHT_REGIROCK                 0x4C
 #define FLAG_RECEIVED_OLD_AMBER              0x4D // Old Amber from Fossil Maniac
 #define FLAG_RECEIVED_STONES                 0x4E // Evolution Stones from Steven
 #define FLAG_RECEIVED_EEVEE                  0x4F // Starter Eevee from rival

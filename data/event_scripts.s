@@ -629,6 +629,21 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour:: @ 82718CC
 	setvar VAR_ELITE_4_STATE, 0
 	return
 
+EverGrandeCity_HallOfFame_EventScript_ResetStaticPokemon:: @ 82718CC
+	clearflag FLAG_DEFEATED_RAYQUAZA
+	clearflag FLAG_DEFEATED_GROUDON
+	clearflag FLAG_DEFEATED_KYOGRE
+	clearflag FLAG_DEFEATED_REGISTEEL
+	clearflag FLAG_DEFEATED_REGICE
+	clearflag FLAG_DEFEATED_REGIROCK
+	clearflag FLAG_DEFEATED_LATIAS_OR_LATIOS
+	clearflag FLAG_DEFEATED_SUDOWOODO
+	clearflag FLAG_DEFEATED_HO_OH
+	clearflag FLAG_DEFEATED_LUGIA
+	clearflag FLAG_DEFEATED_DEOXYS
+	clearflag FLAG_DEFEATED_MEW
+	return
+
 Common_EventScript_UpdateBrineyLocation:: @ 82718DE
 	goto_if_unset FLAG_RECEIVED_POKENAV, Common_EventScript_NopReturn
 	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, Common_EventScript_NopReturn
