@@ -39,16 +39,42 @@ void UpdateMirageRnd(u16 days)
     SetMirageRnd(rnd);
 }
 
+// It now appears when the hour is prime.
 bool8 IsMirageIslandPresent(void)
 {
-    u16 rnd = GetMirageRnd() >> 16;
-    int i;
+    static const u8 island[] =
+    {
+        0, // 00
+        0, // 01
+        1, // 02
+        1, // 03
+        0, // 04
+        1, // 05
+        0, // 06
+        1, // 07
+        0, // 08
+        0, // 09
+        0, // 10
+        1, // 11
+        0, // 12
+        1, // 13
+        0, // 14
+        0, // 15
+        0, // 16
+        1, // 17
+        0, // 18
+        1, // 19
+        0, // 20
+        0, // 21
+        0, // 22
+        1, // 23
+    };
 
-    for (i = 0; i < PARTY_SIZE; i++)
-        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) && (GetMonData(&gPlayerParty[i], MON_DATA_PERSONALITY) & 0xFFFF) == rnd)
-            return TRUE;
-
-    return FALSE;
+    RtcCalcLocalTime();
+    if (island[gLocalTime.hours])
+        return TRUE;
+    else
+        return FALSE;
 }
 
 void UpdateShoalTideFlag(void)
