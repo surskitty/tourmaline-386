@@ -5338,6 +5338,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ned[] = {
     .iv = 10,
     .lvl = 11,
     .species = SPECIES_TENTACOOL,
+    },
+    {
+    .iv = 10,
+    .lvl = 11,
+    .species = SPECIES_STARYU,
     }
 };
 
