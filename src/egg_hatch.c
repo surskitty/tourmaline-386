@@ -874,10 +874,10 @@ u8 GetEggStepsToSubtract(void)
         {
             u8 ability = GetMonAbility(&gPlayerParty[i]);
             if (ability == ABILITY_MAGMA_ARMOR || ability == ABILITY_FLAME_BODY)
-                return 2;
+                return 4;
         }
     }
-    return 1;
+    return 2;
 }
 
 u16 CountPartyAliveNonEggMons(void)
