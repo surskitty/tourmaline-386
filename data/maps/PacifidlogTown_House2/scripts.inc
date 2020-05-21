@@ -140,13 +140,12 @@ PacifidlogTown_House2_Text_Rurii: @ 8203B8D
 	.string "AZURILL: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer: @ 8203B9D
-	.string "It appears to be very friendly with the\n"
-	.string "TRAINER.$"
+	.string "It appears to have a strong bond with\n"
+	.string "its TRAINER.$"
 
 PacifidlogTown_House2_Text_Rururi: @ 8203BCE
 	.string "AZURILL: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch: @ 8203BDF
-	.string "It doesn't appear to like the TRAINER\n"
-	.string "very much.$"
+	.string "It doesn't seem to trust people much.$"
 
