@@ -66,52 +66,52 @@ BattleFrontier_Lounge7_EventScript_ChooseNewLeftTutorMove:: @ 826532F
 	end
 
 BattleFrontier_Lounge7_EventScript_Softboiled:: @ 82653D7
-	setvar VAR_0x8008, 16
+	setvar VAR_0x8008, 4
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_SeismicToss:: @ 82653E2
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_DreamEater:: @ 82653ED
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_MegaPunch:: @ 82653F8
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_MegaKick:: @ 8265403
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_BodySlam:: @ 826540E
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_RockSlide:: @ 8265419
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_Counter:: @ 8265424
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_ThunderWave:: @ 826542F
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_SwordsDance:: @ 826543A
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
@@ -180,52 +180,52 @@ BattleFrontier_Lounge7_EventScript_ChooseNewRightTutorMove:: @ 826551F
 	end
 
 BattleFrontier_Lounge7_EventScript_DefenseCurl:: @ 82655C7
-	setvar VAR_0x8008, 16
+	setvar VAR_0x8008, 4
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_Snore:: @ 82655D2
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_MudSlap:: @ 82655DD
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_Swift:: @ 82655E8
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_IcyWind:: @ 82655F3
-	setvar VAR_0x8008, 24
+	setvar VAR_0x8008, 6
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_Endure:: @ 82655FE
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_PsychUp:: @ 8265609
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_IcePunch:: @ 8265614
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_ThunderPunch:: @ 826561F
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
 BattleFrontier_Lounge7_EventScript_FirePunch:: @ 826562A
-	setvar VAR_0x8008, 48
+	setvar VAR_0x8008, 12
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
