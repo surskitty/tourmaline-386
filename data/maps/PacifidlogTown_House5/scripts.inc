@@ -21,15 +21,15 @@ PacifidlogTown_House5_EventScript_Gentleman:: @ 8204137
 	end
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday: @ 8204140
-	.string "I can't see MIRAGE ISLAND right now…$"
+	.string "I can't see Mirage Island right now…$"
 
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday: @ 8204161
 	.string "Oh! Oh my!\n"
-	.string "I can see MIRAGE ISLAND now!\p"
+	.string "I can see Mirage Island now!\p"
 	.string "Go quickly!$"
 
 PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather: @ 820418B
-	.string "MIRAGE ISLAND…\p"
+	.string "Mirage Island…\p"
 	.string "It must appear and disappear\n"
 	.string "depending on the weather.\p"
 	.string "Or is it really appearing and\n"
