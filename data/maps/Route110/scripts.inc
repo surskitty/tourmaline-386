@@ -945,10 +945,10 @@ Route110_Text_CyclingRoadSign: @ 81F082D
 	.string "Seaside Cycling Road$"
 
 Route110_Text_AquaWasHere: @ 81F0842
-	.string "“TEAM Aqua was here!”\p"
+	.string "“Team Aqua was here!”\p"
 	.string "Someone painted that onto this sign,\n"
 	.string "but then someone else painted over it.\p"
-	.string "“TEAM Magma rules!” is what it\n"
+	.string "“Team Magma rules!” is what it\n"
 	.string "says now.$"
 
 Route110_Text_Route103Sign: @ 81F08CD
@@ -984,7 +984,7 @@ Route110_Text_BestRecord: @ 81F0A1E
 	.string "Elapsed time: {STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord: @ 81F0A5E
-	.string "The Best Record To Date…\p"
+	.string "The Best Record to Date…\p"
 	.string "No one seems to have taken the\n"
 	.string "challenge. There is no record…$"
 

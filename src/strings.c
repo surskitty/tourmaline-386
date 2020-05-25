@@ -1460,9 +1460,9 @@ ALIGNED(4) const u8 gText_FrontierFacilityFloorsCleared[] = _("Floors cleared: {
 ALIGNED(4) const u8 gText_123Dot[][3] = {_("1."), _("2."), _("3.")};
 
 const u8 gText_SavingDontTurnOff2[] = _("Saving…\nDON'T Turn Off The Power.");
-const u8 gText_BlenderMaxSpeedRecord[] = _("Berry Blender\nMAXIMUM Speed Record!");
+const u8 gText_BlenderMaxSpeedRecord[] = _("Berry Blender\nMaximum Speed Record!");
 const u8 gText_234Players[] = _("2 Players\n3 Players\n4 Players");
-const u8 gText_YesNo[] = _("Yes\nNO");
+const u8 gText_YesNo[] = _("Yes\nNo");
 const u8 gText_SelectorArrow3[] = _("▶");
 const u8 gText_Peekaboo[] = _("Peekaboo!");
 const u8 gText_CommErrorCheckConnections[] = _("Communication error…\nPlease check all connections,\nthen turn the power Off and On.");

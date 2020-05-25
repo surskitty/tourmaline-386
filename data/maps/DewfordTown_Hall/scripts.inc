@@ -332,7 +332,7 @@ DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 	.string "“{STR_VAR_1}” &\l"
 	.string "Bad “{STR_VAR_1}”…\p"
 	.string "The Link Between\n"
-	.string "“{STR_VAR_1}” And\l"
+	.string "“{STR_VAR_1}” and\l"
 	.string "Pokémon…\p"
 	.string "Useful\n"
 	.string "“{STR_VAR_1}”…\p"
@@ -340,11 +340,11 @@ DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 	.string "“{STR_VAR_1}.”$"
 
 DewfordTown_Hall_Text_TrendsScream: @ 81FDC05
-	.string "“{STR_VAR_1}'S\n"
+	.string "“{STR_VAR_1}'s\n"
 	.string "Scream” is the title.$"
 
 DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
-	.string "“{STR_VAR_1}'S\n"
+	.string "“{STR_VAR_1}'s\n"
 	.string "Smile” is the title.$"
 
 DewfordTown_Hall_Text_LastTrend: @ 81FDC3C

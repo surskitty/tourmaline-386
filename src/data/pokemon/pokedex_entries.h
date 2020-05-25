@@ -4634,7 +4634,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_DEOXYS] =
     {
-        .categoryName = _("Dna"),
+        .categoryName = _("DNA"),
         .height = 17,
         .weight = 608,
         .description = gDeoxysPokedexText,

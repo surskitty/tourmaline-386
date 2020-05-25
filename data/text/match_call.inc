@@ -1223,7 +1223,7 @@ MatchCall_PersonalizedText52:: @ 82AEE35
 	.string "I gave a {POKEBLOCK} to my {STR_VAR_2}.\n"
 	.string "It seemed to enjoy it very much.\p"
 	.string "It looks like Pokémon have their\n"
-	.string "likes and dislikes with {POKEBLOCK}S.\p"
+	.string "likes and dislikes with {POKEBLOCK}s.\p"
 	.string "I find that quite fascinating.\n"
 	.string "Please do take care.$"
 
@@ -2438,7 +2438,7 @@ MatchCall_Text_May12:: @ 2B414B
 MatchCall_Text_May13:: @ 2B4228
 	.string "May: Hi, {PLAYER}{KUN}!\p"
 	.string "How's it going?\n"
-	.string "Are you filling your PokéDEX?\p"
+	.string "Are you filling your Pokédex?\p"
 	.string "I heard a rumor that there are\n"
 	.string "super-ancient Pokémon out there.\l"
 	.string "And there are three of them!\p"
@@ -2565,7 +2565,7 @@ MatchCall_Text_Brendan12:: @ 2B4B28
 MatchCall_Text_Brendan13:: @ 2B4C15
 	.string "Brendan: Hey there, {PLAYER}!\p"
 	.string "How's it going? Filling up your\n"
-	.string "PokéDEX successfully?\p"
+	.string "Pokédex successfully?\p"
 	.string "I heard a rumor that there are\n"
 	.string "super-ancient Pokémon out there.\l"
 	.string "And not just one--three!\p"
@@ -2838,7 +2838,7 @@ MatchCall_Text_BirchRegisterCall: @ 82B5F52
 	.string "upgraded with Match Call.\p"
 	.string "Well, I should register, too!\p"
 	.string "That way, I'd be able to examine\n"
-	.string "your PokéDEX even while you're\l"
+	.string "your Pokédex even while you're\l"
 	.string "out in the field.\p"
 	.string "… … … … … …$"
 
@@ -2848,7 +2848,7 @@ MatchCall_Text_RegisteredBirch: @ 82B603A
 
 MatchCall_Text_UnusedProfBirch:
 	.string "Prof. Birch: When one has both\n"
-	.string "the PokéDEX and Pokénav, studying\l"
+	.string "the Pokédex and Pokénav, studying\l"
 	.string "Pokémon becomes more fun, eh?$"
 
 MatchCall_Text_MrStone1:: @ 82B60C0
