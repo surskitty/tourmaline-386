@@ -17,6 +17,7 @@ FortreeCity_Gym_EventScript_InitRotatingGates:: @ 82165C4
 
 FortreeCity_Gym_EventScript_Winona:: @ 82165C8
 	trainerbattle_single TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	call_if_set FLAG_SYS_GAME_CLEAR, FortreeCity_Gym_EventScript_MysticTicket
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_WinonaRematch
@@ -24,6 +25,12 @@ FortreeCity_Gym_EventScript_Winona:: @ 82165C8
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
+
+FortreeCity_Gym_EventScript_MysticTicket::
+	message FortreeCity_Gym_Text_RarePokemon
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_RECEIVED_MYSTIC_TICKET
+	return
 
 FortreeCity_Gym_EventScript_WinonaDefeated:: @ 82165FD
 	message FortreeCity_Gym_Text_ReceivedFeatherBadge
@@ -316,3 +323,16 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
 	.string "Pokémon with you?\p"
 	.string "Please return with two Pokémon\n"
 	.string "at the very least.$"
+
+FortreeCity_Gym_Text_RarePokemon:
+	.string "Winona: As the Champion, you've\n"
+	.string "reached a height achieved by few.\p"
+	.string "Ecruteak City, in the Johto region,\n"
+	.string "once was the roost of two powerful\l"
+	.string "legendary Bird Pokémon.\n"
+	.string "A colleague of mine called to tell\n"
+	.string "me they've been seen once more.\p"
+	.string "We both traveled to their new roost,\n"
+	.string "but neither deigned to battle us.\p"
+	.string "Maybe your power is enough to earn\n"
+	.string "their regard, hm, {PLAYER}?$"
