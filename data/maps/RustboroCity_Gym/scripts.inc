@@ -183,7 +183,7 @@ RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "Pokémon Gym Leader.\p"
 	.string "I became a Gym Leader so that I might\n"
 	.string "apply what I learned at the Pokémon\l"
-	.string "Trainer'S School in battle.\p"
+	.string "Trainer's School in battle.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which Pokémon?$"
 
@@ -206,7 +206,7 @@ RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
 	.string "The Stone Badge heightens the Attack\n"
 	.string "power of your Pokémon.\p"
-	.string "It also enables them to use the Hm move\n"
+	.string "It also enables them to use the HM move\n"
 	.string "Cut outside of battle.\p"
 	.string "Please take this with you, too.$"
 
@@ -217,8 +217,8 @@ RustboroCity_Gym_Text_ExplainRockTomb: @ 82138B1
 	.string "rocks, it also lowers Speed.\p"
 	.string "If you use a TM, it instantly teaches\n"
 	.string "the move to a Pokémon.\p"
-	.string "Remember, a TM can be used as many\n"
-	.string "times as you want, so take advantage!$"
+	.string "TM moves can be used as many times\n"
+	.string "as you please, so be proactive.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle: @ 82139A7
 	.string "Since you are so strong, you should\n"
