@@ -618,7 +618,7 @@ static void UpdateHappinessStepCounter(void)
     int i;
 
     (*ptr)++;
-    (*ptr) %= 128;
+    (*ptr) %= 64;
     if (*ptr == 0)
     {
         struct Pokemon *mon = gPlayerParty;
