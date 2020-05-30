@@ -11901,6 +11901,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fabian[] = {
     .iv = 0,
     .lvl = 26,
     .species = SPECIES_MANECTRIC,
+    },
+    {
+    .iv = 0,
+    .lvl = 26,
+    .species = SPECIES_RAICHU,
     }
 };
 
