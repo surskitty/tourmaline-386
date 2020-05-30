@@ -371,7 +371,7 @@ PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
 
 PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "Registered Mom\n"
-	.string "in the PokéNAV.$"
+	.string "in the Pokénav.$"
 
 PlayersHouse_1F_Text_Vigoroth1: @ 81F7EA8
 	.string "Fugiiiiih!$"

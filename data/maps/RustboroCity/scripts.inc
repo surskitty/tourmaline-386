@@ -1064,7 +1064,7 @@ RustboroCity_Text_YoureNewAroundHere: @ 81E1407
 	.string "Oh? Who might you be?\n"
 	.string "You're a new face around these parts.\p"
 	.string "Have you just transferred into the\n"
-	.string "Pokémon Trainer'S School?$"
+	.string "Pokémon Trainer's School?$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire: @ 81E1480
 	.string "I challenged the Gym Leader, but…\p"
@@ -1093,7 +1093,7 @@ RustboroCity_Text_WowYouHavePokemon: @ 81E1633
 	.string "places with Pokémon, too.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool: @ 81E1695
-	.string "Pokémon Trainer'S School!\p"
+	.string "Pokémon Trainer's School!\p"
 	.string "If I go to this school, will I be able\n"
 	.string "to catch rare Pokémon easily?$"
 

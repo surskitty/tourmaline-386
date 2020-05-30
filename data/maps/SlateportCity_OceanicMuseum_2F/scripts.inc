@@ -422,7 +422,7 @@ SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay: @ 820C7C1
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica: @ 820C82F
 	.string "“The Ferry S.S. Tidal\p"
 	.string "“A scale replica of the ship under\n"
-	.string "construction at Stern'S Shipyard.”$"
+	.string "construction at Stern's Shipyard.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica: @ 820C88B
 	.string "“Submarine Explorer 1\p"

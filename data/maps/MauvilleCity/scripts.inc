@@ -565,7 +565,7 @@ MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 
 MauvilleCity_Text_RegisteredWally: @ 81DFEB4
 	.string "Registered Wally\n"
-	.string "in the PokéNAV.$"
+	.string "in the Pokénav.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "Scott: Hehe…\n"
