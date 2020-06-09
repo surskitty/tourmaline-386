@@ -84,7 +84,7 @@
 #define NUM_BATTLE_STATS NUM_STATS + 2 // includes Accuracy and Evasion
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 16 // Actual probability is SHINY_ODDS/65536
 
 // Flags for Get(Box)MonData / Set(Box)MonData
 #define MON_DATA_PERSONALITY        0
@@ -226,7 +226,7 @@
 #define STATUS_PRIMARY_FAINTED   7
 
 #define MAX_TOTAL_EVS 510
-#define EV_ITEM_RAISE_LIMIT 100
+#define EV_ITEM_RAISE_LIMIT 252
 
 #define UNOWN_FORM_COUNT 28
 
