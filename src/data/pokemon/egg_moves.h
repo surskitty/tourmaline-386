@@ -1451,5 +1451,15 @@ const u16 gEggMoves[] = {
               MOVE_HELPING_HAND,
               MOVE_DREAM_EATER),
 
+    egg_moves(BUDEW,
+              MOVE_EXTRASENSORY,
+              MOVE_MIND_READER,
+              MOVE_RAZOR_LEAF,
+              MOVE_SLEEP_POWDER,
+              MOVE_SPIKES,
+              MOVE_SYNTHESIS,
+              MOVE_PIN_MISSILE,
+              MOVE_COTTON_SPORE),
+
     EGG_MOVES_TERMINATOR
 };

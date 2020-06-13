@@ -2319,3 +2319,107 @@ const u8 gDeoxysPokedexText[] = _(
     "extraterrestrial virus exposed to a laser\n"
     "beam. Its body is configured for superior\n"
     "agility and speed.");
+
+const u8 gBudewPokedexText[] = _(
+    "Sensitive to changing temperature,\n"
+    "the bud is said to bloom when it feels\n"
+    "the sun's warm touch.");
+
+const u8 gRoseradePokedexText[] = _(
+    "Its sweet aroma attracts prey.\n"
+    "Then it spews poison. The more toxic it is,\n"
+    "the sweeter its aroma.");
+
+const u8 gAmbipomPokedexText[] = _(
+    "They live on large trees.\n"
+    "They are said to communicate by connecting\n"
+    "their tails to the tails of others.");
+
+const u8 gMismagiusPokedexText[] = _(
+    "Its cries sound like incantations.\n"
+    "Those hearing it are tormented by headaches\n"
+    "and hallucinations.");
+
+const u8 gHonchkrowPokedexText[] = _(
+    "If its Murkrow cronies fail to catch food,\n"
+    "or it feels they have betrayed them,\n"
+    "it will hunt them down wherever they are\n"
+    "and punish them.");
+
+const u8 gChinglingPokedexText[] = _(
+    "There is an orb inside its mouth.\n"
+    "When it hops, the orb bounces all over\n"
+    "and makes a ringing sound.");
+
+const u8 gBonslyPokedexText[] = _(
+    "It prefers an arid atmosphere.\n"
+    "It leaks water that look like tears\n"
+    "when it adjusts its moisture level.");
+
+const u8 gMunchlaxPokedexText[] = _(
+    "In its desperation to gulp down food,\n"
+    "it forgets about the food it has hidden\n"
+    "under its long body hair.");
+
+const u8 gMantykePokedexText[] = _(
+    "When it swims close to the ocean surface,\n"
+    "people aboard ships are able to observe\n"
+    "the pattern on its back.");
+
+const u8 gWeavilePokedexText[] = _(
+    "They travel in groups of four or five,\n"
+    "leaving odd patterns on trees and rocks.\n"
+    "They coordinate to bring down their prey.");
+
+const u8 gMagnezonePokedexText[] = _(
+    "Three units generate magnetism.\n"
+    "There have been many mistaken reports of UFOs\n"
+    "when Magnezone flies through the night sky.");
+
+const u8 gLickilickyPokedexText[] = _(
+    "");
+
+const u8 gRhyperiorPokedexText[] = _(
+    "");
+
+const u8 gTangrowthPokedexText[] = _(
+    "");
+
+const u8 gElectivirePokedexText[] = _(
+    "");
+
+const u8 gMagmortarPokedexText[] = _(
+    "");
+
+const u8 gTogekissPokedexText[] = _(
+    "");
+
+const u8 gYanmegaPokedexText[] = _(
+    "");
+
+const u8 gLeafeonPokedexText[] = _(
+    "");
+
+const u8 gGlaceonPokedexText[] = _(
+    "");
+
+const u8 gSylveonPokedexText[] = _(
+    "");
+
+const u8 gGliscorPokedexText[] = _(
+    "");
+
+const u8 gMamoswinePokedexText[] = _(
+    "");
+
+const u8 gPorygonZPokedexText[] = _(
+    "");
+
+const u8 gGalladePokedexText[] = _(
+    "");
+
+const u8 gProbopassPokedexText[] = _(
+    "");
+
+const u8 gFroslassPokedexText[] = _(
+    "");
