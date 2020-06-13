@@ -2373,53 +2373,89 @@ const u8 gWeavilePokedexText[] = _(
 
 const u8 gMagnezonePokedexText[] = _(
     "Three units generate magnetism.\n"
-    "There have been many mistaken reports of UFOs\n"
-    "when Magnezone flies through the night sky.");
+    "There have been many reports of UFOs when\n"
+    "Magnezone flies through the night sky.");
 
 const u8 gLickilickyPokedexText[] = _(
-    "");
+    "It wraps things with its extensible tongue.\n"
+    "Getting too close to it will soak you\n"
+    "with numbing drool.");
 
 const u8 gRhyperiorPokedexText[] = _(
-    "");
+    "It can load up to three projectiles per arm\n"
+    "into the holes in its hands.\n"
+    "What launches out of those holes could be\n"
+    "either rocks or Geodude.");
 
 const u8 gTangrowthPokedexText[] = _(
-    "");
+    "When it holds still, it looks like a shrub.\n"
+    "When unsuspecting prey wanders near,\n"
+    "it ensnares them in its vines.");
 
 const u8 gElectivirePokedexText[] = _(
-    "");
+    "Heedless of enemy attacks, it closes in,\n"
+    "shoves its tails onto the foe, then lets loose\n"
+    "with over 20,000 volts of power.");
 
 const u8 gMagmortarPokedexText[] = _(
-    "");
+    "From its arm, it launches fireballs hotter\n"
+    "than 3,500 degrees Fahrenheit.\n"
+    "Its arm starts to melt when it fires\n"
+    "a whole barrage.");
 
 const u8 gTogekissPokedexText[] = _(
-    "");
+    "It shares many blessings with those\n"
+    "who respect one another's rights\n"
+    "and avoid needless strife.");
 
 const u8 gYanmegaPokedexText[] = _(
-    "");
+    "It prefers to battle by biting apart\n"
+    "foes' heads instantly while flying by\n"
+    "at high speed.");
 
 const u8 gLeafeonPokedexText[] = _(
-    "");
+    "Its cellular composition is closer to\n"
+    "that of a plant than an animal.\n"
+    "It uses photosynthesis to produce\n"
+    "its energy supply without eating food.");
 
 const u8 gGlaceonPokedexText[] = _(
-    "");
+    "It can control its body temperature\n"
+    "as it pleases.\n"
+    "It can freeze moisture in the air\n"
+    "to make flurries of diamond dust.");
 
 const u8 gSylveonPokedexText[] = _(
-    "");
+    "Its ribbonlike feelers give off an aura\n"
+    "that weakens hostility in its prey,\n"
+    "causing them to let down their guard.\n"
+    "Then it attacks.");
 
 const u8 gGliscorPokedexText[] = _(
-    "");
+    "If it catches even a faint breeze,\n"
+    "it can circle the globe without even\n"
+    "having to flap once.");
 
 const u8 gMamoswinePokedexText[] = _(
-    "");
+    "Its impressive tusks are made of ice.\n"
+    "The population thinned as it warmed\n"
+    "after the ice age.");
 
 const u8 gPorygonZPokedexText[] = _(
-    "");
+    "Its programming was modified to allow it\n"
+    "to travel through alien dimensions.\n"
+    "Seems there might have been an error.");
 
 const u8 gGalladePokedexText[] = _(
-    "");
+    "A master of courtesy and swordsmanship,\n"
+    "it fights using the blades on its elbows");
 
 const u8 gProbopassPokedexText[] = _(
-    "");
+    "It freely controls three small units,\n"
+    "called Mini-Noses, using magnetism.\n"
+    "They sometimes get lost and don't return.");
 
 const u8 gFroslassPokedexText[] = _(
-    "");
+    "It freezes hikers who climb snowy mountains\n"
+    "and carries them back to its home.\n"
+    "It only goes after men it finds handsome.");
