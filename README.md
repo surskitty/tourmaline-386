@@ -26,4 +26,5 @@ This is a romhack of Pokémon Emerald, based off [the disassembly by pret et al.
 - Everyone at pret, obviously.
 - Most content was done by surskitty.
 - The nosepass sprites are by bluwiikoon.
+- The lugia sprites are by Chibi Pika.
 - Thousand Roads discord server for cheerleading, playtesting, et al.
