@@ -18,6 +18,7 @@ This is a romhack of Pokémon Emerald, based off [the disassembly by pret et al.
 - Fishing no longer randomly fails to catch a fish.
 - Friendship raises faster.
 - Mystic Ticket is available.
+- Premier Balls are now obtained in bulk with any pokeball purchase.
 
 ## Short Term Goals
 - Make available the events for Deoxys, the other Eon, and Mew.
