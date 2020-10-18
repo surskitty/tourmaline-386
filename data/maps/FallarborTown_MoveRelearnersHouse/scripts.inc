@@ -1,9 +1,11 @@
+.set LOCALID_MOVE_RELEARNER, 1
+
 FallarborTown_MoveRelearnersHouse_MapScripts:: @ 8201382
 	.byte 0
 
 FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner:: @ 8201383
 	lockall
-	applymovement 1, Common_Movement_FacePlayer
+	applymovement LOCALID_MOVE_RELEARNER, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
@@ -12,7 +14,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner:: @ 8201383
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove:: @ 82013A8
-	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
+	msgbox FallarborTown_MoveRelearnersHouse_Text_WantMeToTeachMove, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, FallarborTown_MoveRelearnersHouse_EventScript_ComeBack
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
@@ -64,7 +66,7 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor: @ 820145C
 	.string "I can teach a move to a Pokémon\n"
 	.string "of yours if you'd like.$"
 
-FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove: @ 8201541
+FallarborTown_MoveRelearnersHouse_Text_WantMeToTeachMove: @ 8201541
 	.string "Let me guess, you want me to teach\n"
 	.string "a move?$"
 
